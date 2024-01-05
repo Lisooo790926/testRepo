@@ -1,28 +1,29 @@
 #card-data {
-    width: 300px;
-    margin: 10px auto;
-    border: 1px solid #000;
-    background: url('https://d2refp30laz1gf.cloudfront.net/btse/debit-card/card-visa.png')
-      no-repeat;
-    background-size: contain;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  #pan-div,
-  #expiry-div,
-  #cvv-div {
-    display: flex;
-    color: white;
-  }
-  #pan-p,
-  #expiry-p,
-  #cvv-p {
-    font-weight: bold;
-  }
-  span {
-    font-weight: normal;
-  }
-  #pan-div {
-    justify-content: space-between;
-    align-items: center;
-  }
+  width: 300px;
+  margin: 10px auto;
+  border: 1px solid #f0f2fa;
+
+  background: url('https://images.unsplash.com/photo-1704189277402-35a0edf7f410?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png')
+    no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+}
+#pan-div,
+#expiry-div,
+#cvv-div {
+  display: flex;
+  color: #f0f2fa;
+}
+#pan-p,
+#expiry-p,
+#cvv-p {
+  font-weight: bold;
+}
+span {
+  font-weight: normal;
+}
+#pan-div {
+  justify-content: space-between;
+  align-items: center;
+}
