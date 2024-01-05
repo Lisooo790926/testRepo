@@ -1,0 +1,28 @@
+#card-data {
+    width: 300px;
+    margin: 10px auto;
+    border: 1px solid #000;
+    background: url('https://d2refp30laz1gf.cloudfront.net/btse/debit-card/card-visa.png')
+      no-repeat;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  #pan-div,
+  #expiry-div,
+  #cvv-div {
+    display: flex;
+    color: white;
+  }
+  #pan-p,
+  #expiry-p,
+  #cvv-p {
+    font-weight: bold;
+  }
+  span {
+    font-weight: normal;
+  }
+  #pan-div {
+    justify-content: space-between;
+    align-items: center;
+  }
