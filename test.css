@@ -1,7 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://d2refp30laz1gf.cloudfront.net/btse/font/BTSE/stylesheet.css');
 
 #card-data {
-  font-family: 'BTSE' sans-serif;
   display: flex;
   gap: 14px;
   width: auto;
@@ -25,7 +25,7 @@
   display: inline-flex;
   flex-direction: column;
   margin: 0;
-  font-family: 'BTSE', Courier, monospace;
+  font-family: 'BTSE','Helvetica Neue',"Helvetica", "Arial", "PingFang TC", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", "sans-serif";
   font-weight: 500;
   font-size: 14px;
   line-height: 18.2px;
@@ -35,6 +35,7 @@ span {
   font-size: 16px;
   font-weight: 700;
   line-height: 20.8px;
+  color: #1B2338;
 }
 #pan-div {
   justify-content: space-between;
