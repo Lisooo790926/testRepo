@@ -2,22 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  width: 300px;
-  height: 182px;
-  margin: 10px auto;
-  border: 1px solid #f0f2fa;
-
-  background: url("https://images.unsplash.com/photo-1531704118376-ec637130bfa0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png")
-    no-repeat;
-  background-size: cover;
-  padding: 20px;
-  border-radius: 10px;
+  border: none;
+  background: #fff;
 }
 #pan-div,
 #expiry-div,
 #cvv-div {
   display: flex;
-  color: #f0f2fa;
+  flex-direction: column;
+  color: #000;
 }
 #pan-p,
 #expiry-p,
