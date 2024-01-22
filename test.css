@@ -3,7 +3,7 @@
 
 #card-data {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   width: auto;
   margin:0;
   padding:0;
@@ -24,6 +24,8 @@
 #cvv-p {
   display: inline-flex;
   flex-direction: column;
+  text-transform: capitalize;
+  gap: 2px;
   margin: 0;
   font-family: 'BTSE','Helvetica Neue',"Helvetica", "Arial", "PingFang TC", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", "sans-serif";
   font-weight: 500;
