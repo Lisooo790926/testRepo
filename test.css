@@ -1,5 +1,9 @@
 #card-data {
   display: flex;
+  width: auto;
+  margin:0;
+  padding:0;
+  border-radius: 0;
   flex-direction: column;
   justify-content: end;
   border: none;
@@ -9,12 +13,13 @@
 #expiry-div,
 #cvv-div {
   display: flex;
-  flex-direction: column;
   color: #000;
 }
 #pan-p,
 #expiry-p,
 #cvv-p {
+  display: inline-flex;
+  flex-direction: column;
   margin: 0;
   font-weight: bold;
 }
